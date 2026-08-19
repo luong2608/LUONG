@@ -8,7 +8,7 @@
     <table border="0" width="100%">
         <tr>
             <td>
-    <img src="../images/logo.png" alt="Logo" width="90" height="90"></td>
+    <img src="https://github.com/luong2608/LUONG/blob/main/Luong-C1250271/images/logo.png" alt="Logo" width="90" height="90"></td>
     <td>
     <h1 align="center">SALARY COFFEE - NƠI BÌNH YÊN VÀ THƯ GIẢN</h1>
     </td>
