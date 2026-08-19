@@ -69,7 +69,7 @@
             <table border="0" width="100%" cellpadding="8" cellspacing="0">
                 <tr>
                     <td align="center">
-                        <img src="../images/ly coffee.png" alt="Cà phê đá" width="200" height="300"><br>
+                        <img src="https://github.com/luong2608/LUONG/blob/main/Luong-C1250271/images/ly%20coffee.png" alt="Cà phê đá" width="200" height="300"><br>
                         <small><b>Cà phê sữa đá</b></small>
                     </td>
                 </tr>
