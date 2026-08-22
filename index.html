@@ -1,373 +1,673 @@
+html_content = '''
 <!DOCTYPE html>
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <title>SALARY COFFEE</title>
-</head>
-<body bgcolor="#FFFFCC">
-    <table border="0" width="100%">
-        <tr>
-            <td>
-    <img src="./images/logo.png" alt="Logo" width="90" height="90"></td>
-    <td>
-    <h1 align="center">SALARY COFFEE - NƠI BÌNH YÊN VÀ THƯ GIẢN</h1>
-    </td>
-</tr>
-    <tr align="center">
-        <td>    
-        </td>
-        <td >
-    <p><i>"Ghé một chút – Uống một tách – Chill một ngày"</i></p>
-    </td>
-    <tr align="center">
-      <td>
-      </td>
-    <td>
-    <a name="trangchu"></a>
-    <p>
-        <a href="#trangchu">Trang chủ</a> | 
-        <a href="#gioithieu">Giới thiệu</a> | 
-        <a href="#thucdon">Thực đơn</a> | 
-        <a href="#menu">Menu</a> | 
-        <a href="#datban">Đặt bàn</a> | 
-        <a href="#lienhe">Liên hệ</a>
-    </p>
-    </td>
-    </tr>
-</tr>
-    </table>
-<table border="0" width="100%" cellpadding="10" cellspacing="0">
-    <tr>
-        <td width="72%">
-          <a name="gioithieu"></a>
-            <h3>GIỚI THIỆU QUÁN</h3>
-            <table border="0" width="100%" cellpadding="5" cellspacing="0">
-                <tr>
-                    <td width="45%">
-                        <img src="../images/quan.png" alt="quán" width="100%">
-                    </td>
-                    <td width="55%">
-                        <p>
-                            SALARY COFFEE – một góc nhỏ dành cho những ngày cần một chút bình yên. Nơi bạn có thể nhâm nhi một tách cà phê, nghe một bản nhạc và tạm quên đi những vội vã ngoài kia. Mỗi góc ngồi tại SALARY COFFEE được tạo nên để bạn thoải mái trò chuyện, làm việc hoặc đơn giản là ngồi một mình. Hương cà phê, không gian nhẹ nhàng và những câu chuyện được kể chậm rãi qua từng khoảnh khắc. Ghé SALARY COFFEE, gọi một món bạn thích và dành cho mình một khoảng thời gian thật riêng.
-                        </p>
-                        <p>
-                            Quán sử dụng 100% hạt cà phê nguyên chất được tuyển chọn từ những vùng trồng cà phê nổi tiếng.
-                        </p>
-                        <p>
-                            Diện tích quán khoảng 120m² với sức chứa 80 khách.
-                        </p>
-                        <p>
-                            SALARY COFFEE luôn hướng đến việc giảm thiểu CO₂ , bảo vệ môi trường và phát triển bền vững.
-                            
-                        </p>
-                    </td>
-                </tr>
-            </table>
-        </td>
-        <td width="1" bgcolor="#DDDDDD"></td>
-        <td width="27%" align="center">
-            <table border="0" width="100%" cellpadding="8" cellspacing="0">
-                <tr>
-                    <td align="center">
-                        <img src="./images/ly coffee.png" alt="Cà phê đá" width="200" height="300"><br>
-                        <small><b>Cà phê sữa đá</b></small>
-                    </td>
-                </tr>
-                <tr>
-                    <td align="center">
-                        <img src="./images/khong gian quan.png" alt="Không gian quán" width="200" height="200"><br>
-                        <small><b>Không gian quán</b></small>
-                    </td>
-                </tr>
-            </table>
-        </td>
-    </tr>
-</table>
-<a name="thucdon"></a>
-    <h2>Danh Sách Đồ Uống</h2>
-    <ol>
-        <li>Cà phê
-            <ul>
-                <li>Cà phê đen</li>
-                <li>Cà phê sữa</li>
-                <li>Bạc xỉu</li>
-            </ul>
-        </li>
-        <li>Trà
-            <ul>
-                <li>Trà đào</li>
-                <li>Trà vải</li>
-                <li>Trà chanh</li>
-            </ul>
-        </li>
-        <li>Nước ép
-            <ul>
-                <li>Nước cam</li>
-                <li>Nước dưa hấu</li>
-            </ul>
-        </li>
-    </ol>
-    <a name="menu"></a>
-<h2 align="center">---MENU---</h2>
-    <table border="1" cellspacing="0" cellpadding="8" width="100%">
-        <tr align="center" bgcolor="#CCCCCC">
-            <th>STT</th>
-            <th>Loại thức uống</th>
-            <th>Tên thức uống</th>
-            <th>Kích thước</th>
-            <th>Giá</th>
-        </tr>
-        <tr>
-            <td align="center" rowspan="3">1</td>
-            <td rowspan="3">Cà phê</td>
-            <td rowspan="1">Cà phê đen</td>
-            <td align="center">Vừa-Lớn</td>
-            <td align="right">25.000-30.000</td>
-        </tr>
-        <tr>
-            <td rowspan="1">Cà phê sữa</td>
-            <<td align="center">Vừa-Lớn</td>
-            <td align="right">25.000-30.000</td>
-        </tr>
-        <tr>
-            <td>Bạc xỉu </td>
-            <td align="center">Vừa-Lớn</td>
-            <td align="right">28.000-33.000</td>
-        </tr>
-        <tr>
-            <td align="center" rowspan="3">2</td>
-            <td rowspan="3">Trà</td>
-            <td>Trà đào</td>
-            <td align="center">Vừa-Lớn</td>
-            <td align="right">25.000-30.000</td>
-        </tr>
-        <tr>
-            <td>Trà vải</td>
-            <td align="center">Vừa-Lớn</td>
-            <td align="right">25.000-30.000</td>
-        </tr>
-        <tr>
-            <td>Trà Chanh</td>
-            <td align="center">Vừa-Lớn</td>
-            <td align="right">25.000-30.000</td>
-        </tr>
-        <tr>
-            <td align="center" rowspan="3">3</td>
-            <td rowspan="3">Latte</td>
-            <td>Matcha Latte</td>
-            <td align="center">Vừa-Lớn</td>
-            <td align="right">35.000-40.000</td>
-        </tr>
-        <tr>
-            <td>Vanilla Latte</td>
-            <td align="center">Vừa-Lớn</td>
-            <td align="right">35.000-40.000</td>
-        </tr>
-        <tr>
-            <td>Vanilla Latte</td>
-            <td align="center">Vừa-Lớn</td>
-            <td align="right">35.000-40.000</td>
-    </table>
-    <p>
-         <a href="./images/thuc don.png" download>click để tải thực đơn về máy tính</a>
-    </p>
-    <table border="1" cellspacing="0" cellpadding="10" width="100%">
-        <tr>
-        <td  align="center">
-        <h2>Nhạc Nền Thư Giãn</h2>
-       <p>Nhạc nền quán:</p>
-    <audio controls>
-        <source src="../mp3/nhac.mp3" type="audio/mpeg">
-        </td>
-    </audio>
-        <td  align="center">
-    <h2>Video Quán</h2>
-        <iframe width="411" height="731" src="https://www.youtube.com/embed/iLLf48xaRAk" title="Nhạc Quán Cafe Không Bản Quyền ☕ Nhạc Nền Cho Quán &amp; Kinh Doanh" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </td> 
-                <td align="center">
-                  <h3>click vào hình để xem video không gian quán</h3>
-        <a href="https://youtu.be/17Uvfvq876g?si=qHXSOtY4B117F34O" target="_blank">
-           <img src="./images/khong gian quan.png" alt="Không gian quán" width="300" height="200"class="img-border">
-        </a>
-                </td>
-        </tr>
-    </table>
-    <a name="datban"></a>
-        <h3 align="center">PHIẾU ĐẶT BÀN TRỰC TUYẾN
-            </h3>
-              <table border="0" width="100%" cellpadding="8" cellspacing="0">
-                <tr>
-                  <td width="30%">
-                    <label for="fullName"><b>Họ và tên:</b></label>
-                  </td>
-                  <td width="70%">
-                    <input
-                      type="text"
-                      id="fullName"
-                      name="fullName"
-                      placeholder="Nhập họ và tên"
-                      style="width: 80%; padding: 5px" />
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <label for="phoneNumber"><b>Số điện thoại:</b></label>
-                  </td>
-                  <td>
-                    <input
-                      type="text"
-                      id="phoneNumber"
-                      name="phoneNumber"
-                      placeholder="Nhập số điện thoại"
-                      style="width: 80%; padding: 5px"/>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <label for="Date"><b>Ngày & Giờ đến:</b></label>
-                  </td>
-                  <td>
-                    <input
-                      type="datetime-local"
-                      id="Date"
-                      name="Date"
-                      style="padding: 5px"
-                    />
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <label for="guestCount"><b>Số lượng khách:</b></label>
-                  </td>
-                  <td>
-                    <input
-                      type="number"
-                      id="guestCount"
-                      name="guestCount"
-                      min="1"
-                      max="50"
-                      value="1"
-                      style="width: 80px; padding: 5px"/>
-                    người
-                  </td>
-                </tr>
-                <tr>
-                  <td><b>Khu vực ngồi:</b></td>
-                  <td>
-                    <input
-                      type="radio"
-                      id="indoor"
-                      name="seating"
-                      value="Trong nhà"
-                      checked/>
-                    <label for="indoor"> Trong nhà</label> &nbsp;
-                    <input
-                      type="radio"
-                      id="outdoor"
-                      name="seating"
-                      value="Sân vườn"/>
-                      <label for="outdoor"> Sân vườn</label> &nbsp;
-                    <input
-                      type="radio"
-                      id="maylanh"
-                      name="seating"
-                      value="Phòng máy lạnh"/>
-                      <label for="maylanh"> Phòng máy lạnh</label> &nbsp;
-                    <input
-                      type="radio"
-                      id="vip"
-                      name="seating"
-                      value="Phòng máy lạnh"/>
-                      <label for="vip"> Phòng VIP</label>
-                  </td>
-                </tr>
-                <tr>
-                  <td valign="top">
-                    <label for="dishes"><b>Chọn món trước:</b></label>
-                  </td>
-                  <td>
-                    <select
-                      id="dishes"
-                      name="dishes"
-                      size="5"
-                      multiple
-                      style="width: 85%; padding: 5px">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Flappy Bat Demon - Bug Fixed Edition</title>
+    <style>
+        html, body {
+            margin: 0; padding: 0; width: 100%; height: 100%;
+            background-color: #0b0b0d; display: flex;
+            justify-content: center; align-items: center;
+            overflow: hidden; position: fixed;
+            font-family: 'Arial', sans-serif; user-select: none; -webkit-user-select: none;
+        }
+        #gameContainer { position: relative; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; }
+        canvas { display: block; box-shadow: 0 0 30px rgba(0,0,0,0.9); image-rendering: pixelated; image-rendering: crisp-edges; }
 
-                       <optgroup label="--- Đồ uống ---"
-                        name="do-uong" style="width: 100%; padding: 8px;">
-                        <option value="">-- Chọn đồ uống --</option>
-                        <option value="cp-coffe">Cà phê đen Size Vừa (25000)</option>
-                        <option value="cp-coffe">Cà phê đen Size Lớn (30000)</option>
-                        <option value="cp-coffe">Cà phê sữa Size Vừa (25000)</option>
-                        <option value="cp-coffe">Cà phê sữa Size Lớn (30000)</option>
-                        <option value="cp-coffe">Bạc xỉu Size Vừa (28000)</option>
-                        <option value="cp-coffe">Bạc xỉu Size Lớn (33000)</option>
-                        <option value="tra-dao">Trà đào Size Vừa (25000)</option>
-                        <option value="tra-dao">Trà đào Size Lớn (30000)</option>
-                        <option value="tra-vai">Trà vải Size Vừa (25000)</option>
-                        <option value="tra-vai">Trà vải Size Lớn (30000)</option>
-                        <option value="tra-chanh">Trà chanh Size Vừa (25000)</option>
-                        <option value="tra-chanh">Trà chanh Size Lớn (30000)</option>
-                        <option value="matcha-latte">Matcha Latte Size Vừa (35000)</option>
-                        <option value="matcha-latte">Matcha Latte Size Lớn (40000)</option>
-                        <option value="vanilla-latte">Vanilla Latte Size Vừa (35000)</option>
-                        <option value="vanilla-latte">Vanilla Latte Size Lớn (40000)</option>
-                        <option value="caramel-latte">Caramel Latte Size Vừa (35000)</option>
-                        <option value="caramel-latte">Caramel Latte Size Lớn (40000)</option>
-                        </optgroup>
-                    </select>
-                    <br /><small style="color: #666"
-                      >*(Giữ phím <b>Ctrl</b> để chọn nhiều món cùng
-                      lúc)*</small>
-                  </td>
-                </tr>
-                <tr>
-                  <td valign="top">
-                    <label for="note"><b>Ghi chú thêm:</b></label>
-                  </td>
-                  <td>
-                    <textarea
-                      id="note"
-                      name="note"
-                      rows="3"
-                      style="width: 85%; padding: 5px"
-                      placeholder="Yêu cầu thêm">
-                    </textarea>
-                  </td>
-                </tr>
-                <tr>
-                  <td colspan="2" align="center" style="padding-top: 15px">
-                    <input
-                      type="submit"
-                      value="XÁC NHẬN ĐẶT BÀN"
-                      onclick=" alert('Đơn đặt bàn của bạn đã được gửi thành công!')"
-                      style="
-                        background-color: #4a2306;
-                        color: white;
-                        padding: 10px 25px;
-                        border: none;
-                        font-weight: bold;
-                        cursor: pointer;
-                        border-radius: 4px;"/>
-                    <input
-                      type="reset"
-                      value="Nhập lại"
-                      style="
-                        padding: 10px 15px;
-                        margin-left: 10px;
-                        cursor: pointer;"/>
-                  </td>
-                </tr>
-              </table>
-    <div align="center">
-      <a name="lienhe"></a>
-        <h3>SALARY COFFEE</h3>
-        <p>
-          <a href="https://www.highlandscoffee.com.vn/" target="_blank">WEBSITE QUÁN</a><br>
-            Địa chỉ: 123 CAO LÃNH , Đồng Tháp<br>
-            Điện thoại: 0835 XXX XXX<br>
-            Email: luong26082007@gmail.com
-        </p>
+        /* Giao diện HUD */
+        #hud {
+            position: absolute; top: 15px; left: 0; width: 100%;
+            display: flex; justify-content: space-between; align-items: flex-start;
+            padding: 0 25px; box-sizing: border-box; pointer-events: none;
+            font-family: monospace; font-weight: bold; text-shadow: 2px 2px 4px #000; z-index: 10;
+        }
+        #leftHUD { display: flex; flex-direction: column; gap: 5px; }
+        #scoreBoard { color: #ff4757; font-size: 4vh; }
+        #berserkBarContainer {
+            width: 120px; height: 12px; background: rgba(0,0,0,0.6);
+            border: 2px solid #fff; border-radius: 4px; overflow: hidden; margin-top: 5px;
+        }
+        #berserkBar { width: 0%; height: 100%; background: #ffa502; transition: width 0.2s; }
+        #rightHUD { display: flex; flex-direction: column; align-items: flex-end; gap: 5px; }
+        #levelBoard { color: #2ed573; font-size: 2.8vh; background: rgba(0,0,0,0.6); padding: 4px 12px; border-radius: 6px; }
+        #statusEffects { color: #e84393; font-size: 2.2vh; font-style: italic; }
+
+        /* THANH MÁU BOSS CẢNH BÁO */
+        #bossHpContainer {
+            display: none; position: absolute; top: 75px; left: 50%; transform: translateX(-50%);
+            width: 50%; height: 16px; background: rgba(0,0,0,0.7); border: 2px solid #ff4757; border-radius: 4px; overflow: hidden; z-index: 10;
+        }
+        #bossHpBar { width: 100%; height: 100%; background: linear-gradient(90deg, #ff7675, #d63031); }
+        #bossTitle { position: absolute; top: -20px; left: 50%; transform: translateX(-50%); color: #ff4757; font-size: 1.8vh; font-weight: bold; font-family: monospace; text-shadow: 1px 1px 2px #000;}
+
+        /* NÚT AUTO-PILOT MOBILE */
+        #autoButton {
+            position: absolute; bottom: 30px; right: 30px; width: 85px; height: 85px;
+            background: rgba(155, 89, 182, 0.3); border: 3px solid #9b59b6; border-radius: 50%;
+            color: #fff; font-size: 13px; font-weight: bold; display: flex; justify-content: center;
+align-items: center; cursor: pointer; box-shadow: 0 0 15px rgba(155, 89, 182, 0.5); z-index: 15;
+            text-align: center; text-shadow: 1px 1px 2px #000;
+        }
+
+        #gameOverScreen {
+            display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(10, 10, 15, 0.92); color: white;
+            flex-direction: column; justify-content: center; align-items: center; z-index: 20;
+        }
+        #gameOverScreen h1 { margin: 0 0 15px 0; font-size: 7vh; color: #ff4757; text-shadow: 4px 4px 0 #000; }
+        #gameOverScreen p { margin: 0 0 25px 0; font-size: 2.8vh; color: #a4b0be; text-align: center; line-height: 1.5; }
+        #gameOverScreen button {
+            padding: 12px 35px; font-size: 3vh; font-weight: bold;
+            background: #2ed573; color: white; border: none; border-radius: 8px;
+            cursor: pointer; box-shadow: 0 6px 0 #26af5f; z-index: 30;
+        }
+        #gameOverScreen button:active {
+            transform: translateY(6px);
+            box-shadow: none;
+        }
+    </style>
+</head>
+<body>
+
+<div id="gameContainer">
+    <div id="hud">
+        <div id="leftHUD">
+            <div id="scoreBoard">Điểm: 0</div>
+            <div id="berserkBarContainer">
+                <div id="berserkBar"></div>
+            </div>
+        </div>
+        <div id="rightHUD">
+            <div id="levelBoard">Màn 1: QUỶ GIỚI</div>
+            <div id="statusEffects"></div>
+        </div>
     </div>
+
+    <div id="bossHpContainer">
+        <div id="bossTitle">NHÃN CẦU MA PHÁP KHỔNG LỒ</div>
+        <div id="bossHpBar"></div>
+    </div>
+
+    <div id="autoButton">HACK AUTO<br>(Giữ R)</div>
+
+    <canvas id="gameCanvas"></canvas>
+
+    <div id="gameOverScreen">
+        <h1>DIỆT VONG</h1>
+        <p>Hết sạch mạng sống!<br>Bấm nút bên dưới hoặc phím SPACE để hồi sinh</p>
+        <button onmousedown="resetGame(event)" ontouchstart="resetGame(event)">CHƠI LẠI</button>
+    </div>
+</div>
+
+<script>
+const canvas = document.getElementById("gameCanvas");
+const ctx = canvas.getContext("2d");
+const scoreBoard = document.getElementById("scoreBoard");
+const levelBoard = document.getElementById("levelBoard");
+const berserkBar = document.getElementById("berserkBar");
+const statusEffects = document.getElementById("statusEffects");
+const gameOverScreen = document.getElementById("gameOverScreen");
+const autoButton = document.getElementById("autoButton");
+const bossHpContainer = document.getElementById("bossHpContainer");
+const bossHpBar = document.getElementById("bossHpBar");
+
+const BASE_WIDTH = 640;
+const BASE_HEIGHT = 360;
+
+let bird = {
+    x: 100, y: 160, width: 34, height: 34,
+    gravity: 0.13, lift: -3.8, velocity: 0,
+    lives: 3, invulnerableFrames: 0,
+    checkeredPassed: 0, berserkTimer: 0, magnetTimer: 0,
+    autoPilot: false,
+    evolutionStage: 1
+};
+
+let boss = {
+    active: false,
+    x: BASE_WIDTH + 100, y: BASE_HEIGHT / 2 - 40,
+    width: 80, height: 80,
+timer: 0,
+    attackCooldown: 0,
+    projectiles: [],
+    laserActive: false,
+    laserWarning: 0,
+    laserY: 0
+};
+
+let pipes = [];
+let particles = [];
+let items = [];
+let coins = [];
+let lines = [];
+let floatingTexts = [];
+let score = 0;
+let gameOver = false;
+let frameCount = 0;
+let animationId = null; // Biến quản lý vòng lặp chính xác
+
+let currentPipeGap = 180;
+let currentPipeSpeed = 1.3;
+let currentSpawnRate = 140;
+let bgColors = { main: "#333338", line: "rgba(0,0,0,0.15)" };
+
+const PIPE_WIDTH = 70;
+
+function resizeCanvas() {
+    const scale = Math.min(window.innerWidth / BASE_WIDTH, window.innerHeight / BASE_HEIGHT);
+    canvas.style.width = (BASE_WIDTH * scale) + "px";
+    canvas.style.height = (BASE_HEIGHT * scale) + "px";
+    canvas.width = BASE_WIDTH; canvas.height = BASE_HEIGHT;
+}
+window.addEventListener('resize', resizeCanvas);
+resizeCanvas();
+
+function init() {
+    // FIX: Hủy hoàn toàn vòng lặp cũ nếu có trước khi tạo vòng lặp mới
+    if (animationId) {
+        cancelAnimationFrame(animationId);
+    }
+
+    bird.y = 160; bird.velocity = 0; bird.lives = 3; bird.invulnerableFrames = 0;
+    bird.checkeredPassed = 0; bird.berserkTimer = 0; bird.magnetTimer = 0; bird.autoPilot = false;
+    bird.evolutionStage = 1;
+    pipes = []; particles = []; items = []; coins = []; floatingTexts = [];
+    boss.active = false; boss.projectiles = []; boss.laserActive = false; boss.laserWarning = 0;
+    boss.x = BASE_WIDTH + 100;
+    lines = [{ x: 100, y: 60, width: 60 }, { x: 400, y: 140, width: 80 }, { x: 250, y: 260, width: 70 }];
+    score = 0;
+    updateLevelAndPalette();
+    scoreBoard.innerText = "Điểm: " + score;
+    berserkBar.style.width = "0%";
+    statusEffects.innerText = "";
+    bossHpContainer.style.display = "none";
+    gameOver = false; frameCount = 0;
+    autoButton.style.display = "flex";
+    gameOverScreen.style.display = "none";
+}
+
+function updateLevelAndPalette() {
+    if (score < 15) bird.evolutionStage = 1;
+    else if (score >= 15 && score <= 35) bird.evolutionStage = 2;
+    else bird.evolutionStage = 3;
+
+    if ((score === 15 || score === 30) && !boss.active) {
+        triggerBossFight();
+    }
+
+    if (score < 10) {
+        levelBoard.innerText = "Màn 1: QUỶ GIỚI"; levelBoard.style.color = "#2ed573";
+        bgColors.main = "#333338"; bgColors.line = "rgba(0, 0, 0, 0.18)";
+        currentPipeGap = 185; currentPipeSpeed = 1.3; currentSpawnRate = 140;
+    } else if (score >= 10 && score < 20) {
+        levelBoard.innerText = "Màn 2: HỎA NGỤC"; levelBoard.style.color = "#ffa502";
+        bgColors.main = "#4d1c1c"; bgColors.line = "rgba(255, 67, 87, 0.08)";
+        currentPipeGap = 165; currentPipeSpeed = 1.6; currentSpawnRate = 125;
+    } else {
+        levelBoard.innerText = "Màn 3: HƯ KHÔNG"; levelBoard.style.color = "#9b59b6";
+        bgColors.main = "#2c1a3a"; bgColors.line = "rgba(155, 89, 182, 0.1)";
+        currentPipeGap = 145; currentPipeSpeed = 2.0; currentSpawnRate = 105;
+    }
+}
+function triggerBossFight() {
+    boss.active = true; boss.x = BASE_WIDTH + 120; boss.y = BASE_HEIGHT / 2 - 40;
+    boss.timer = 1200; boss.attackCooldown = 90; boss.laserActive = false; boss.laserWarning = 0;
+    bossHpContainer.style.display = "block"; bossHpBar.style.width = "100%";
+    addFloatingText("CẢNH BÁO: BOSS XUẤT HIỆN!", BASE_WIDTH / 2, BASE_HEIGHT / 2, "#ff4757", true);
+}
+
+function addFloatingText(txt, x, y, color, isBig = false) {
+    floatingTexts.push({ text: txt, x: x, y: y, color: color, alpha: 1.0, isBig: isBig, vy: -0.6 });
+}
+
+function triggerJump() {
+    if (gameOver) return;
+    if (!bird.autoPilot) bird.velocity = bird.lift;
+}
+
+// --- HÀM RESET KHÔNG LỖI KẸT ---
+function resetGame(e) {
+    if(e) {
+        e.stopPropagation();
+        e.preventDefault();
+    }
+    init();
+    animate();
+}
+
+// --- ĐIỀU KHIỂN CHÍNH XÁC ---
+window.addEventListener("keydown", function(e) {
+    if (e.code === "Space") {
+        if (gameOver) {
+            resetGame(); // FIX: Sửa lỗi đơ phím Space tại màn hình Game Over
+        } else {
+            triggerJump();
+        }
+    } else if (e.code === "KeyR") {
+        bird.autoPilot = true;
+    }
+});
+window.addEventListener("keyup", function(e) {
+    if (e.code === "KeyR") bird.autoPilot = false;
+});
+
+autoButton.addEventListener("mousedown", function(e) { e.stopPropagation(); bird.autoPilot = true; });
+autoButton.addEventListener("mouseup", function(e) { e.stopPropagation(); bird.autoPilot = false; });
+autoButton.addEventListener("touchstart", function(e) { e.stopPropagation(); e.preventDefault(); bird.autoPilot = true; }, { passive: false });
+autoButton.addEventListener("touchend", function(e) { e.stopPropagation(); e.preventDefault(); bird.autoPilot = false; }, { passive: false });
+
+window.addEventListener("mousedown", function(e) {
+    if (gameOver || e.target.tagName === "BUTTON" || e.target === autoButton) return;
+    triggerJump();
+});
+window.addEventListener("touchstart", function(e) {
+    if (gameOver || e.target.tagName === "BUTTON" || e.target === autoButton) return;
+    e.preventDefault(); triggerJump();
+}, { passive: false });
+
+
+// --- AI TỰ ĐỘNG DI CHUYỂN NÉ ---
+function autoNavigate() {
+    if (!bird.autoPilot || gameOver) return;
+    let targetY = BASE_HEIGHT / 2;
+    if (boss.active) {
+        if (boss.laserActive || boss.laserWarning > 0) {
+            targetY = (boss.laserY < BASE_HEIGHT / 2) ? BASE_HEIGHT - 60 : 60;
+        } else if (boss.projectiles.length > 0) {
+            let closestProj = boss.projectiles[0];
+            targetY = (closestProj.y < bird.y) ? closestProj.y + 70 : closestProj.y - 70;
+        } else { targetY = boss.y + boss.height / 2; }
+    } else {
+        let targetPipe = null;
+        for (let i = 0; i < pipes.length; i++) {
+            if (!pipes[i].broken && pipes[i].x + PIPE_WIDTH > bird.x) { targetPipe = pipes[i]; break; }
+        }
+        if (targetPipe) targetY = targetPipe.top + (currentPipeGap / 2);
+    }
+targetY = Math.max(40, Math.min(BASE_HEIGHT - 40, targetY));
+    let diffY = targetY - (bird.y + bird.height / 2);
+    bird.velocity = diffY * 0.15;
+}
+
+// --- ĐỒ HỌA VẼ ---
+function drawHearts() {
+    let startX = 25, startY = 55, heartSize = 12, spacing = 20;
+    for (let i = 0; i < 3; i++) {
+        ctx.save(); ctx.translate(startX + (i * spacing), startY);
+        ctx.beginPath(); ctx.moveTo(0, -heartSize / 4);
+        ctx.bezierCurveTo(-heartSize/2, -heartSize/2, -heartSize, -heartSize/4, -heartSize, heartSize/4);
+        ctx.bezierCurveTo(-heartSize, heartSize*0.6, -heartSize/4, heartSize*0.8, 0, heartSize);
+        ctx.bezierCurveTo(heartSize/4, heartSize*0.8, heartSize, heartSize*0.6, heartSize, heartSize/4);
+        ctx.bezierCurveTo(heartSize, -heartSize/4, heartSize/2, -heartSize/2, 0, -heartSize/4);
+        ctx.fillStyle = (i < bird.lives) ? "#ff4757" : "#4a4a5a";
+        if (i < bird.lives) { ctx.shadowBlur = 6; ctx.shadowColor = "#ff4757"; }
+        ctx.fill(); ctx.strokeStyle = "#111"; ctx.lineWidth = 1.5; ctx.stroke(); ctx.restore();
+    }
+}
+
+function drawBird() {
+    if (bird.invulnerableFrames > 0 && bird.berserkTimer === 0 && !bird.autoPilot && Math.floor(frameCount / 4) % 2 === 0) return;
+    ctx.save(); ctx.translate(bird.x + bird.width/2, bird.y + bird.height/2);
+    ctx.rotate((bird.autoPilot) ? 0 : Math.min(Math.max(bird.velocity * 0.04, -0.15), 0.3));
+
+    let currentScale = (bird.berserkTimer > 0 || bird.autoPilot) ? 1.7 : 1.0;
+    ctx.scale(currentScale, currentScale);
+    let r = bird.width / 2;
+
+    let flapSpeed = (bird.evolutionStage >= 2) ? 0.22 : 0.12;
+    drawBatWing(-1, flapSpeed, 0); drawBatWing(1, flapSpeed, 0);
+    if (bird.evolutionStage >= 2) {
+        drawBatWing(-1, flapSpeed + 0.05, 0.5); drawBatWing(1, flapSpeed + 0.05, 0.5);
+    }
+
+    ctx.fillStyle = (bird.berserkTimer > 0) ? "#ff4757" : (bird.evolutionStage === 3 ? "#ffd32a" : "#3a1d1d");
+    ctx.strokeStyle = "#110505"; ctx.lineWidth = 1.5;
+    [-1, 1].forEach(side => {
+        ctx.beginPath(); ctx.moveTo(side * (r - 4), -r + 6);
+        ctx.quadraticCurveTo(side * (r + 2), -r - 10, side * (r - 2), -r - 6); ctx.fill(); ctx.stroke();
+    });
+    if (bird.evolutionStage === 3) {
+        ctx.fillStyle = "#ffd32a"; ctx.beginPath();
+        ctx.moveTo(-6, -r); ctx.lineTo(-9, -r - 8); ctx.lineTo(-3, -r - 3); ctx.lineTo(0, -r - 12); ctx.lineTo(3, -r - 3); ctx.lineTo(9, -r - 8); ctx.lineTo(6, -r);
+        ctx.closePath(); ctx.fill(); ctx.stroke();
+    }
+
+    ctx.save(); ctx.beginPath(); ctx.arc(0, 0, r, 0, Math.PI * 2); ctx.clip();
+    if (bird.autoPilot) ctx.fillStyle = "#8e44ad";
+    else if (bird.berserkTimer > 0) ctx.fillStyle = "#e67e22";
+    else if (bird.evolutionStage === 2) ctx.fillStyle = "#27ae60";
+    else if (bird.evolutionStage === 3) ctx.fillStyle = "#2c3e50";
+    else ctx.fillStyle = "#696975";
+    ctx.fillRect(-r, -r, r*2, r*2);
+ctx.fillStyle = "rgba(0, 0, 0, 0.08)"; for (let i = -r; i < r; i += 3) ctx.fillRect(-r, i, r*2, 1.5);
+    ctx.restore();
+    ctx.strokeStyle = "#2f2f38"; ctx.lineWidth = 2; ctx.beginPath(); ctx.arc(0, 0, r, 0, Math.PI * 2); ctx.stroke();
+
+    let eyeR = (bird.evolutionStage === 3) ? 7.5 : 6;
+    ctx.shadowBlur = 8; ctx.shadowColor = (bird.evolutionStage === 2) ? "#2ed573" : "#ff3838";
+    [-6.5, 6.5].forEach(ox => {
+        ctx.fillStyle = (bird.berserkTimer > 0 || bird.autoPilot) ? "#fff" : "#d63031"; ctx.beginPath(); ctx.arc(ox, 1, eyeR, 0, Math.PI * 2); ctx.fill();
+        ctx.fillStyle = (bird.evolutionStage === 3) ? "#ffa502" : "#ff7675"; ctx.beginPath(); ctx.arc(ox, 1, 2, 0, Math.PI * 2); ctx.fill();
+    });
+    ctx.shadowBlur = 0;
+
+    ctx.strokeStyle = "#1e1e24"; ctx.fillStyle = "#fff"; ctx.lineWidth = 2;
+    ctx.beginPath(); ctx.moveTo(-4, 5); ctx.lineTo(-2, 7); ctx.lineTo(0, 5); ctx.lineTo(2, 7); ctx.lineTo(4, 5); ctx.stroke();
+
+    if (frameCount % 2 !== 0) {
+        ctx.strokeStyle = bird.autoPilot ? "#a29bfe" : (bird.berserkTimer > 0 ? "#ff9f43" : (bird.evolutionStage === 2 ? "#2ed573" : (bird.evolutionStage === 3 ? "#9b59b6" : "rgba(255, 76, 48, 0.7)")));
+        ctx.lineWidth = 1.3; ctx.shadowBlur = 6; ctx.shadowColor = ctx.strokeStyle; ctx.beginPath();
+        for (let a = 0; a < Math.PI * 2; a += 1.2) {
+            let startR = r + 2; let endR = r + Math.random() * 6 + 4;
+            ctx.moveTo(Math.cos(a) * startR, Math.sin(a) * startR); ctx.lineTo(Math.cos(a + 0.05) * endR, Math.sin(a + 0.05) * endR);
+        }
+        ctx.stroke();
+    }
+    ctx.restore();
+
+    if (bird.evolutionStage === 3 && frameCount % 6 === 0) {
+        particles.push({ x: bird.x, y: bird.y + bird.height/2 + (Math.random()*20-10), size: Math.random()*5 + 4, age: 20, isShadowBat: true });
+    }
+}
+
+function drawBatWing(scaleX, speed, phase) {
+    ctx.save(); ctx.scale(scaleX, 1);
+    let wingFlap = Math.sin(frameCount * speed + phase) * 0.16; ctx.rotate(wingFlap);
+    ctx.shadowBlur = 6; ctx.shadowColor = (bird.evolutionStage === 2) ? "#2ed573" : "#e84393";
+    let wingGrad = ctx.createLinearGradient(10, 0, 35, 0);
+    wingGrad.addColorStop(0, "#2d3436"); wingGrad.addColorStop(0.5, bird.evolutionStage === 2 ? "#27ae60" : "#6c5ce7"); wingGrad.addColorStop(1, "#ff7675");
+    ctx.fillStyle = wingGrad; ctx.strokeStyle = "#1e1e24"; ctx.lineWidth = 1.5;
+    ctx.beginPath(); ctx.moveTo(10, 2); ctx.quadraticCurveTo(25, -18, 38, -6); ctx.quadraticCurveTo(32, 2, 28, -2); ctx.quadraticCurveTo(22, 6, 18, 0); ctx.quadraticCurveTo(14, 6, 10, 2);
+    ctx.closePath(); ctx.fill(); ctx.stroke(); ctx.restore();
+}
+
+function updateAndDrawBoss() {
+    if (!boss.active) return;
+    boss.timer--; bossHpBar.style.width = (boss.timer / 1200 * 100) + "%";
+    if (boss.x > BASE_WIDTH - 110) boss.x -= 1;
+    boss.y += Math.sin(frameCount * 0.04) * 0.8;
+
+    ctx.save(); ctx.translate(boss.x + boss.width/2, boss.y + boss.height/2);
+ctx.shadowBlur = 15; ctx.shadowColor = "#ff4757";
+    ctx.fillStyle = "#f1f2f6"; ctx.strokeStyle = "#ff4757"; ctx.lineWidth = 3;
+    ctx.beginPath(); ctx.arc(0, 0, boss.width/2, 0, Math.PI*2); ctx.fill(); ctx.stroke();
+    ctx.fillStyle = "#2f3542"; ctx.beginPath(); ctx.arc(-10, 0, 18, 0, Math.PI*2); ctx.fill();
+    ctx.fillStyle = "#ff4757"; ctx.beginPath(); ctx.arc(-12, 0, 8, 0, Math.PI*2); ctx.fill();
+    ctx.restore();
+
+    boss.attackCooldown--;
+    if (boss.attackCooldown <= 0) {
+        let randAttack = Math.random();
+        if (randAttack < 0.6) {
+            boss.projectiles.push({ x: boss.x, y: boss.y + 20, r: 8, vx: -2.5, vy: (bird.y - boss.y)/120 });
+            boss.projectiles.push({ x: boss.x, y: boss.y + 60, r: 8, vx: -2.5, vy: (bird.y - boss.y)/120 });
+            boss.attackCooldown = 110;
+        } else {
+            boss.laserWarning = 70; boss.laserY = bird.y + 10; boss.attackCooldown = 160;
+        }
+    }
+
+    if (boss.laserWarning > 0) {
+        boss.laserWarning--;
+        ctx.strokeStyle = "rgba(255, 71, 87, 0.4)"; ctx.lineWidth = 2; ctx.setLineDash([6, 4]);
+        ctx.beginPath(); ctx.moveTo(boss.x, boss.laserY); ctx.lineTo(0, boss.laserY); ctx.stroke(); ctx.setLineDash([]);
+        if (boss.laserWarning === 0) boss.laserActive = 25;
+    }
+
+    if (boss.laserActive > 0) {
+        boss.laserActive--;
+        ctx.fillStyle = "#ff4757"; ctx.shadowBlur = 20; ctx.shadowColor = "#ff0000";
+        ctx.fillRect(0, boss.laserY - 10, boss.x, 20); ctx.fillStyle = "#fff"; ctx.fillRect(0, boss.laserY - 3, boss.x, 6);
+        ctx.shadowBlur = 0;
+
+        if (bird.invulnerableFrames === 0 && bird.y + bird.height > boss.laserY - 10 && bird.y < boss.laserY + 10) {
+            bird.lives--; addFloatingText("-1 TIM!", bird.x, bird.y, "#ff4757");
+            if (bird.lives <= 0) endGame(); else bird.invulnerableFrames = 90;
+        }
+    }
+
+    boss.projectiles.forEach((proj, pIdx) => {
+        proj.x += proj.vx; proj.y += proj.vy;
+        ctx.fillStyle = "#ffa502"; ctx.shadowBlur = 10; ctx.shadowColor = "#ff7f50";
+        ctx.beginPath(); ctx.arc(proj.x, proj.y, proj.r, 0, Math.PI*2); ctx.fill(); ctx.shadowBlur = 0;
+
+        if (bird.invulnerableFrames === 0 && proj.x - proj.r < bird.x + bird.width && proj.x + proj.r > bird.x &&
+            proj.y - proj.r < bird.y + bird.height && proj.y + proj.r > bird.y) {
+            boss.projectiles.splice(pIdx, 1);
+            bird.lives--; addFloatingText("-1 TIM!", bird.x, bird.y, "#ff4757");
+            if (bird.lives <= 0) endGame(); else bird.invulnerableFrames = 90;
+        }
+        if (proj.x < 0) boss.projectiles.splice(pIdx, 1);
+    });
+
+    if (boss.timer <= 0) {
+        boss.active = false; bossHpContainer.style.display = "none"; boss.projectiles = [];
+        score += 5; scoreBoard.innerText = "Điểm: " + score;
+        addFloatingText("BOSS BỊ TIÊU DIỆT! MƯA ĐỒ THƯỞNG!", BASE_WIDTH/2, BASE_HEIGHT/2 - 30, "#ffd32a", true);
+for (let j = 0; j < 15; j++) coins.push({ x: boss.x + Math.random()*50, y: boss.y + Math.random()*50 });
+        updateLevelAndPalette();
+    }
+}
+
+function drawFloatingTexts() {
+    floatingTexts.forEach((ft, index) => {
+        ft.y += ft.vy; ft.alpha -= 0.015;
+        ctx.save(); ctx.globalAlpha = ft.alpha; ctx.fillStyle = ft.color;
+        ctx.font = ft.isBig ? "bold 20px monospace" : "bold 13px monospace";
+        ctx.shadowBlur = 4; ctx.shadowColor = "#000"; ctx.fillText(ft.text, ft.x, ft.y); ctx.restore();
+        if (ft.alpha <= 0) floatingTexts.splice(index, 1);
+    });
+}
+
+function drawPipe(pipe) {
+    if (pipe.broken) return;
+    ctx.lineWidth = 2; ctx.strokeStyle = "#111";
+    let parts = [
+        { y: 0, height: pipe.top, isTop: true },
+        { y: BASE_HEIGHT - pipe.bottom, height: pipe.bottom, isTop: false }
+    ];
+    parts.forEach(part => {
+        if (pipe.type === "checkered") {
+            ctx.save(); ctx.beginPath(); ctx.rect(pipe.x, part.y, PIPE_WIDTH, part.height); ctx.clip();
+            let size = 12;
+            for (let ox = pipe.x; ox < pipe.x + PIPE_WIDTH; ox += size) {
+                for (let oy = part.y; oy < part.y + part.height; oy += size) {
+                    ctx.fillStyle = (Math.floor(ox/size) + Math.floor(oy/size)) % 2 === 0 ? "#bdc3c7" : "#2c3e50";
+                    ctx.fillRect(ox, oy, size, size);
+                }
+            }
+            ctx.strokeRect(pipe.x, part.y, PIPE_WIDTH, part.height);
+            let headY = part.isTop ? part.height - 28 : part.y;
+            ctx.fillStyle = "#bdc3c7"; ctx.fillRect(pipe.x - 4, headY, PIPE_WIDTH + 8, 28);
+            ctx.strokeRect(pipe.x - 4, headY, PIPE_WIDTH + 8, 28); ctx.restore();
+        } else {
+            let gradient = ctx.createLinearGradient(pipe.x, 0, pipe.x + PIPE_WIDTH, 0);
+            gradient.addColorStop(0, "#2c3e50"); gradient.addColorStop(0.3, "#34495e"); gradient.addColorStop(1, "#1a252f");
+            ctx.fillStyle = gradient; ctx.fillRect(pipe.x, part.y, PIPE_WIDTH, part.height);
+            ctx.strokeRect(pipe.x, part.y, PIPE_WIDTH, part.height);
+            let headY = part.isTop ? part.height - 28 : part.y;
+            ctx.fillRect(pipe.x - 4, headY, PIPE_WIDTH + 8, 28); ctx.strokeRect(pipe.x - 4, headY, PIPE_WIDTH + 8, 28);
+        }
+    });
+}
+
+function drawItems() {
+    items.forEach((item, idx) => {
+        item.x -= currentPipeSpeed;
+        ctx.save(); ctx.shadowBlur = 10; ctx.shadowColor = item.type === "health" ? "#ff4757" : "#00d2d3";
+        if (item.type === "health") {
+            ctx.fillStyle = "#ff4757"; ctx.fillRect(item.x, item.y, item.size, item.size);
+            ctx.fillStyle = "#fff"; ctx.fillRect(item.x + 3, item.y - 4, item.size - 6, 4);
+            ctx.fillStyle = "#fff"; ctx.fillRect(item.x + item.size/2 - 1, item.y + 3, 2, item.size - 6);
+            ctx.fillRect(item.x + 3, item.y + item.size/2 - 1, item.size - 6, 2);
+        } else {
+ctx.strokeStyle = "#00d2d3"; ctx.lineWidth = 4; ctx.lineCap = "round";
+            ctx.beginPath(); ctx.arc(item.x + item.size/2, item.y + item.size/2, item.size/3, Math.PI, 0, false); ctx.stroke();
+            ctx.fillStyle = "#fff"; ctx.fillRect(item.x + 1, item.y + item.size/2, 4, 3); ctx.fillRect(item.x + item.size - 5, item.y + item.size/2, 4, 3);
+        }
+        ctx.restore();
+        if (item.x + item.size < 0) items.splice(idx, 1);
+    });
+
+    coins.forEach((coin, idx) => {
+        coin.x -= currentPipeSpeed;
+        if (bird.magnetTimer > 0 || bird.autoPilot) {
+            let dx = (bird.x + bird.width/2) - coin.x; let dy = (bird.y + bird.height/2) - coin.y;
+            let dist = Math.sqrt(dx*dx + dy*dy);
+            if (dist < 180) { coin.x += (dx / dist) * 5; coin.y += (dy / dist) * 5; }
+        }
+        ctx.fillStyle = "#ffd32a"; ctx.shadowBlur = 5; ctx.shadowColor = "#ffd32a";
+        ctx.beginPath(); ctx.arc(coin.x, coin.y, 3.5, 0, Math.PI*2); ctx.fill(); ctx.shadowBlur = 0;
+        if (coin.x < 0) coins.splice(idx, 1);
+    });
+}
+
+function drawParticles() {
+    particles.forEach((p, idx) => {
+        p.x -= currentPipeSpeed * 1.2; p.y += p.vy || 0; p.age--;
+        if (p.isShadowBat) { ctx.fillStyle = `rgba(15, 15, 25, ${p.age / 20})`; ctx.fillRect(p.x, p.y, p.size, p.size / 2); }
+        else { ctx.fillStyle = p.color || `rgba(155, 89, 182, ${p.age / 50})`; ctx.fillRect(p.x, p.y, p.size, p.size); }
+        if (p.age <= 0) particles.splice(idx, 1);
+    });
+}
+
+// --- VÒNG LẶP GAME LOOP CHUẨN ---
+function animate() {
+    // FIX: Nếu game đã kết thúc, thoát hoàn toàn và chặn chạy ngầm lập tức
+    if (gameOver) return;
+    frameCount++;
+
+    autoNavigate();
+
+    if (bird.invulnerableFrames > 0) bird.invulnerableFrames--;
+
+    if (bird.autoPilot) {
+        statusEffects.innerText = "HACK MODE: AUTO NE"; bird.invulnerableFrames = 2;
+    } else if (bird.berserkTimer > 0) {
+        bird.berserkTimer--; bird.invulnerableFrames = 2;
+        statusEffects.innerText = `NỘ KHÍ: ${Math.ceil(bird.berserkTimer/60)}s`;
+        if (bird.berserkTimer === 0) { bird.checkeredPassed = 0; berserkBar.style.width = "0%"; statusEffects.innerText = ""; }
+    } else if (bird.magnetTimer > 0) {
+        bird.magnetTimer--; statusEffects.innerText = `NAM CHÂM: ${Math.ceil(bird.magnetTimer/60)}s`;
+        if (bird.magnetTimer === 0) statusEffects.innerText = "";
+    } else {
+        if (statusEffects.innerText.includes("AUTO")) statusEffects.innerText = "";
+    }
+
+    ctx.fillStyle = bgColors.main; ctx.fillRect(0, 0, BASE_WIDTH, BASE_HEIGHT);
+    ctx.fillStyle = bgColors.line; for (let i = 0; i < BASE_HEIGHT; i += 4) ctx.fillRect(0, i, BASE_WIDTH, 2);
+
+    lines.forEach(l => {
+        l.x -= currentPipeSpeed * 0.5; if (l.x + l.width < 0) l.x = BASE_WIDTH;
+        ctx.fillRect(l.x, l.y, l.width, 2);
+    });
+
+    if (!bird.autoPilot) { bird.velocity += bird.gravity; bird.y += bird.velocity; }
+if (bird.y + bird.height > BASE_HEIGHT || bird.y < 0) { bird.lives = 0; endGame(); return; }
+
+    if (!boss.active && frameCount % currentSpawnRate === 0) {
+        let minH = 30, maxH = BASE_HEIGHT - currentPipeGap - minH;
+        let topH = Math.floor(Math.random() * (maxH - minH + 1)) + minH;
+        let bottomH = BASE_HEIGHT - currentPipeGap - topH;
+        let type = Math.random() < 0.4 ? "checkered" : "normal";
+
+        pipes.push({ x: BASE_WIDTH, top: topH, bottom: bottomH, type: type, passed: false, broken: false });
+
+        if (Math.random() < 0.6) coins.push({ x: BASE_WIDTH + PIPE_WIDTH/2, y: topH + currentPipeGap/2 + (Math.random()*40-20) });
+        if (Math.random() < 0.25) {
+            items.push({
+                x: BASE_WIDTH + PIPE_WIDTH/2, y: topH + currentPipeGap/2 + (Math.random()*40-20),
+                type: Math.random() < 0.5 ? "health" : "magnet", size: 16
+            });
+        }
+    }
+
+    pipes.forEach((pipe, idx) => {
+        pipe.x -= currentPipeSpeed;
+        if (!pipe.broken && pipe.type === "checkered" && frameCount % 12 === 0 && pipe.x > 0 && pipe.x < BASE_WIDTH) {
+            particles.push({ x: pipe.x + Math.random()*PIPE_WIDTH, y: pipe.top + Math.random()*currentPipeGap, size: 6, age: 45 });
+        }
+
+        drawPipe(pipe);
+
+        if (!pipe.passed && !pipe.broken && pipe.x + PIPE_WIDTH < bird.x) {
+            score++; scoreBoard.innerText = "Điểm: " + score; pipe.passed = true;
+            addFloatingText("+1 ĐIỂM", bird.x + 10, bird.y - 10, "#ffd32a");
+
+            if (pipe.type === "checkered" && bird.berserkTimer === 0) {
+                bird.checkeredPassed = Math.min(bird.checkeredPassed + 1, 5);
+                berserkBar.style.width = (bird.checkeredPassed * 20) + "%";
+                if (bird.checkeredPassed === 5) {
+                    bird.berserkTimer = 180;
+                    addFloatingText("NỘ KHÍ ĐẠT MỐC!", bird.x, bird.y - 20, "#e67e22", true);
+                }
+            }
+            updateLevelAndPalette();
+        }
+
+        if (!pipe.broken && bird.x + bird.width > pipe.x && bird.x < pipe.x + PIPE_WIDTH) {
+            if (bird.y < pipe.top || bird.y + bird.height > BASE_HEIGHT - pipe.bottom) {
+                if (bird.berserkTimer > 0 || bird.autoPilot) {
+                    if (bird.berserkTimer > 0) {
+                        pipe.broken = true; addFloatingText("HÚC VỠ!", pipe.x, BASE_HEIGHT/2, "#ffa502");
+                        for (let k = 0; k < 12; k++) {
+                            particles.push({
+                                x: pipe.x + PIPE_WIDTH/2, y: BASE_HEIGHT/2 + (Math.random()*150-75),
+                                size: Math.random()*6+4, age: 40, vy: Math.random()*6-3, color: pipe.type === "checkered" ? "#bdc3c7" : "#34495e"
+                            });
+                        }
+                    }
+                } else if (bird.invulnerableFrames === 0) {
+bird.lives--; addFloatingText("-1 TIM!", bird.x, bird.y, "#ff4757");
+                    if (bird.lives <= 0) { endGame(); return; } else bird.invulnerableFrames = 90;
+                }
+            }
+        }
+        if (pipe.x + PIPE_WIDTH < 0) pipes.splice(idx, 1);
+    });
+
+    updateAndDrawBoss();
+
+    items.forEach((item, idx) => {
+        if (bird.x + bird.width > item.x && bird.x < item.x + item.size && bird.y + bird.height > item.y && bird.y < item.y + item.size) {
+            if (item.type === "health") { bird.lives = Math.min(bird.lives + 1, 3); addFloatingText("+1 LIFE!", bird.x, bird.y - 15, "#2ed573", true); }
+            else if (item.type === "magnet") { bird.magnetTimer = 300; addFloatingText("MAGNETIC!", bird.x, bird.y - 15, "#00d2d3", true); }
+            items.splice(idx, 1);
+        }
+    });
+
+    coins.forEach((coin, idx) => {
+        let dx = bird.x + bird.width/2 - coin.x; let dy = bird.y + bird.height/2 - coin.y;
+        if (Math.sqrt(dx*dx + dy*dy) < bird.width/2 + 6) {
+            score++; scoreBoard.innerText = "Điểm: " + score; addFloatingText("COMBO X2!", coin.x, coin.y, "#fffa65"); updateLevelAndPalette(); coins.splice(idx, 1);
+        }
+    });
+
+    drawParticles(); drawItems(); drawBird(); drawHearts(); drawFloatingTexts();
+
+    // Lưu ID vòng lặp hiện tại để quản lý giải phóng bộ nhớ
+    animationId = requestAnimationFrame(animate);
+}
+
+function endGame() {
+    gameOver = true;
+    if (animationId) cancelAnimationFrame(animationId); // Dừng vẽ ngay tức khắc
+    gameOverScreen.style.display = "flex";
+    autoButton.style.display = "none";
+    bossHpContainer.style.display = "none";
+}
+
+// Khởi chạy
+init();
+animate();
+</script>
+
 </body>
 </html>
+'''
+
+from IPython.display import HTML, display
+
+display(HTML(html_content))
